@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ivan_Session2</title>
+        <link rel="shortcut icon" href="" type="image/x-icon">
+    </head>
+    <body>
+        <section class="section">
+            <article>
+                <h1>Session 2 Napag-aralan</h1>
+                <ol>
+                    <li>title</li>
+                    <li>type</li>
+                    <li>name</li>
+                    <li>id</li>
+                    <li>for</li>
+                </ol>
+            </article>
+
+            <article>
+                <h1>Session 2 Ten(10) Additional Tags</h1>
+                <ol>
+                    <li>class</li>
+                    <li>value</li>
+                    <li>method</li>
+                    <li>onclick</li>
+                    <li>selected</li>
+                    <li>disabled</li>
+                    <li>checked</li>
+                    <li>onblur</li>
+                    <li>min and max</li>
+                    <li>maxlength</li>
+                </ol>
+            </article>
+
+            <p>
+                <br>
+                What is
+                <abbr title="Hypertext Markup Language">HTML</abbr>?
+            </p>
+
+            <br>    
+
+            <form onsubmit="Results" method="<!--post-->">
+                <h2>Pick a main wheelie: </h2>
+                <input type="radio" name="wheelie" id="bike">
+                <label for="bike">Bike</label>
+                <br>
+
+                <input type="radio" name="wheelie" id="ebike">
+                <label for="ebike">Ebike</label>
+                <br>
+
+                <input type="radio" name="wheelie" id="motor">
+                <label for="motor">Motor</label>
+                <br>
+
+                <input type="radio" name="wheelie" id="car">
+                <label for="car">Car</label>
+                <br><br><br>
+
+                <fieldset>
+                    <legend>A wide box</legend>
+                    <label for="dropdown">Pick a number: </label>
+                    <select name="dropDown" id="dropdown">
+                        <option value="0"></option>
+                        <option value="1" selected>Choose 1?</option>
+                        <option value="2">Or maybe 2?</option>
+                        <option value="3">Hmmmm 3?</option>
+                        <option value="4">4 can be?</option>
+                        <option value="5">It's 5 really.</option>
+                    </select>
+
+                    <h4>Checklist</h4>
+                    <input type="checkbox" checked name="checkb" id="checkb">
+                    <label for="checkb">Maging transformer</label>
+                    <br>
+                    <input type="checkbox" checked name="checkb" id="checkb">
+                    <label for="checkb">Ma-interview si Spongebob</label>
+                </fieldset>
+                <br>
+                <label for="blur">Name:</label> <br>
+                <input type="text" id="minn" onblur="alert('Oops')">
+                <br><br>
+                <label for="maxi,">Rating:</label> <br>
+                <input type="number" id="maxim" min="1" max="5">
+                
+
+                <h2>Feel free to type anything</h2> 
+                <textarea cols="50" rows="8" placeholder="Type here" maxlength="8"></textarea>
+                <br><br>
+                <button disabled type="submit">Cannot Submit</button>
+                <button type="submit" onclick="alert('Submitted')">Submit</button>
+
+            </form>
+        </section>
+    </body>
+</html>
